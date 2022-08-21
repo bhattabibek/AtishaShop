@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Atisha</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="mains">
+        <img width="80px" height="80px" src="images/logomain.png">
+        <i class="fa-solid bars fa-bars"></i>
+      </div>
+      <div class="navlinks">
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html" class="link" data-link="home">Home</a>
+            </li>
+            <li>
+              <a href="about.html" class="link" data-link="about">About</a>
+            </li>
+            <li>
+              <a href="shop.html" class="link" data-link="shop">Shop</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="search">
+        <i class="fa-solid glass fa-magnifying-glass"></i>
+      </div>
+    </div>
+    <div class="middle section active" id="home">
+      <div class="woolen">
+        <div class="wool">
+          Woolen Cap
+          <i class="fa-solid wool wooling fa-angle-left"></i>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img class="wos" width="150px" height="150px" class="oneimg" src="images/crop.png">
+      </div>
+      <!-- <div class="bodyimg">
+        <img src="images/3.png">
+      </div> -->
+      <div class="ims">
+        <img id="pic" src="images/3.png">
+        <div class="buttons">
+          <button id="btn1" onclick="change1()"></button>
+          <button id="btn2" onclick="change2()"></button>
+          <button id="btn3" onclick="change3()"></button>
+          <button id="btn4" onclick="change4()"></button>
+        </div>
+      </div>
+      <p class="woolens wol">
+        <img class="wo" width="150px" height="150px" src="images/circle.png">
+        <div class="wools">
+          <i class="fa-solid rights fa-chevron-right"></i>
+          Sweaters
+        </div>
+      </p>
+      <button class="btn" type="button">Buy Now</button>
+    </div>
+    <div class="section" id="about">
+      <div class="containers">
+        <i class="fa-solid fa-angle-left"></i>
+        <div class="abt">
+          ABOUT
+          <br>US</br>
+        </div>
+        <div class="faces">
+          <img width="270px" height="190px" class="face fa" src="images/mainface.png">
+          <div class="info">
+            <h4>Raw Materials</h4>
+            <p>
+              Raw material is the first process
+             
+              we select it for the fine materials
+            </p>
+          </div>
+        </div>
+        <div class="face2 face">
+          <img width="160px" height="80px" class="face" src="images/woolen.jpg">
+          <h4>Raw Materials</h4>
+          <p>
+            Raw material is the first process
+           
+            we select it for the fine materials
+          </p>
+        </div>
+        <div class="face3 face">
+          <img width="160px" height="80px" src="images/woolen.jpg">
+          <h4>Raw Materials</h4>
+          <p>
+            Raw material is the first process
+            
+            we select it for the fine materials
+          </p>
+        </div>
+        <i class="fa-solid fa-angle-right"></i>
+      </div>
+      <div class="informations">
+        From the have done for us in the name of humanity? Well, I guess nothing about any single stuff. ipsum dolor sit amet, consectetur adipiscing elit. Sed et, feugiat dignissim tellus turpis. Nunc facilisis facilisis nec, penatibus ac imperdiet. Ut volutpat tempor quam velit molestie quam. Nullam morbi sed ac feugiat blandit et arcu, sit dui. Sed sed posuere orci neque. Diam gravida et nunc convallis neque eleifend. Magna imperdiet nunc diam pellentesque gravida massa, aliquam. Porttitor neque, elit nunc orci. Tincidunt ullamcorper faucibus id a orci id et.
+        Viverra tellus condimentum euismod mollis elementum at. Begining of the humans history we have seen the people anound us, what are the things they.
+      </div>
+    </div>
+    <div class="section" id="shop">
+      <div class="container">
+        <!-- New product slider -->
+        <div class="slider-container" id="new-products">
+          <div class="slides-container">
+            <ul class="slider-list">
+              <li class="slider-item">
+                <div class="item1 item shirt" data-filter="tshirt">
+                  <img width="150px" height="100px" src="images/3.png">
+                  <h3>Echo-Tshirt</h3>
+                  <div class="detail">
+                    <div class="price">Rs.1100</div>
+                    <div class="qty">
+                      QTY 1
+                      <div class="circles"></div>
+                      <div class="circless"></div>
+                    </div>
+                  </div>
+                  <div class="btnss">
+                    <button class="buy" type="button">Buy Now</button>
+                    <button class="buy" type="button">Explore</button>
+                  </div>
+                </div>
+              </li>
+              <li class="slider-item">
+                <div class="item2 item cap" data-filter="cap">
+                  <img width="150px" height="100px" src="images/1.png">
+                  <h3>Echo-Cap</h3>
+                  <div class="detail">
+                    <div class="price">Rs.1100</div>
+                    <div class="qty">
+                      QTY 1
+                      <div class="circles"></div>
+                      <div class="circless"></div>
+                    </div>
+                  </div>
+                  <div class="btnss">
+                    <button class="buy" type="button">Buy Now</button>
+                    <button class="buy" type="button">Explore</button>
+                  </div>
+                </div>
+              </li>
+              <li class="slider-item">
+                <div class="item3 item vest" data-filter="tshirts">
+                  <img width="230px" height="160px" src="images/two.png">
+                  <h3>Echo-Cap</h3>
+                  <div class="detail">
+                    <div class="price">Rs.1100</div>
+                    <div class="qty">
+                      QTY 1
+                      <div class="circles"></div>
+                      <div class="circless"></div>
+                    </div>
+                  </div>
+                  <div class="btnss">
+                    <button class="buy buys" type="button">Buy Now</button>
+                    <button class="buy" type="button">Explore</button>
+                  </div>
+                </div>
+              </li>
+              <li class="slider-item">
+                <div class="item4 item shoes" data-filter="vest">
+                  <img width="150px" height="100px" src="images/man.png">
+                  <h3>Echo-cap</h3>
+                  <div class="detail">
+                    <div class="price">Rs.1100</div>
+                    <div class="qty">
+                      QTY 1
+                      <div class="circles"></div>
+                      <div class="circless"></div>
+                    </div>
+                  </div>
+                  <div class="btnss">
+                    <button class="buy" type="button">Buy Now</button>
+                    <button class="buy" type="button">Explore</button>
+                  </div>
+                </div>
+              </li>
+              <li class="slider-item">
+                <div class="item5 item hat" data-filter="hat">
+                  <img width="150px" height="100px" src="images/green.png">
+                  <h3>Echo-cap</h3>
+                  <div class="detail">
+                    <div class="price">Rs.1100</div>
+                    <div class="qty">
+                      QTY 1
+                      <div class="circles"></div>
+                      <div class="circless"></div>
+                    </div>
+                  </div>
+                  <div class="btnss">
+                    <button class="buy" type="button">Buy Now</button>
+                    <button class="buy" type="button">Explore</button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="slider-arrows">
+            <button type="button" class="slider-arrow-prev">
+              <i class="fa-solid left fa-angle-left"></i>
+            </button>
+            <button type="button" class="slider-arrow-next">
+              <i class="fa-solid right fa-angle-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ending">
+      <div class="end1">
+        <h1>
+          <span>ECHO</span>
+          FRIENDLY CLOTHES
+        </h1>
+      </div>
+      <div class="end2">
+        <i>
+          <a href="#">Facebook</a>
+        </i>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <i>
+          <a href="#">Instagram</a>
+        </i>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <i>
+          <a href="#">Linkedin</a>
+        </i>
+      </div>
+    </div>
+    <script>
+//       function changeColor(event){
+
+// document.querySelectorAll("span.active").forEach(function(item)
+// {
+// item.classList.remove('active')
+// })
+// event.target.classList.add('active')
+//       }
+
+function change1(){
+  document.getElementById('pic').src="images/blue.png";
+}
+function change2(){
+  document.getElementById('pic').src='images/green.png';
+}
+function change3(){
+  document.getElementById('pic').src='images/teal.png';
+}
+function change4(){
+  document.getElementById('pic').src='images/pink.png';
+}
+
+
+
+const navs = document.querySelectorAll('.link');
+
+navs.forEach(nav => {
+  nav.addEventListener('click', (e) => {
+    e.preventDefault();
+    const sections = document.querySelectorAll('.section');
+    console.log(sections);
+    sections.forEach(s => {
+      s.classList.remove('active');
+    });
+    const section = document.getElementById(e.target.dataset.link);
+    section.classList.add('active');
+  });
+});
+    </script>
+    <script src="slider.js"></script>
+  </body>
+</html>
